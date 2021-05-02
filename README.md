@@ -1,7 +1,7 @@
 # Test The Code
 
-1. cd to server and run - "npm start"
-2. cd to client and run - "npm start"
+1. cd to server and run - "npm i" , when it finished run - "npm start"
+2. cd to client and run - "npm i" , when it finished run - "npm start"
 
 Runs the server in the development mode.\
 Open [http://localhost:8002](http://localhost:8002).
