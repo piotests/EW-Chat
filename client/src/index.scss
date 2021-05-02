@@ -1,0 +1,81 @@
+/* General */
+  
+body {
+	margin: 0;
+	// font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #333;
+	background-color: #fff;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+  
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+  
+.app {
+	text-align: left;
+}
+
+.center {
+	text-align: center;
+}
+
+.d-hide {
+	display: none;
+}
+  
+.d-block {
+	display: block;
+}
+  
+svg:not(:root) {
+	overflow: hidden;
+}
+  
+img {
+	vertical-align: middle;
+	border: 0;
+}
+  
+p {
+	margin: 0 0 10px;
+}
+  
+  
+/* Fixed RTL */
+.rtl {
+	direction: rtl;
+  
+	.App {
+		text-align: right;
+	}
+}
+
+/* Hide By Size */
+@media (max-width: 767px) {
+	.hide-xs {
+	  	display: none !important;
+	}
+}
+  
+@media (min-width: 768px) and (max-width: 991px) {
+	.hide-sm {
+	 	 display: none !important;
+	}
+}
+  
+@media (min-width: 992px) and (max-width: 1199px) {
+	.hide-md {
+		  display: none !important;
+	}
+}
+  
+@media (min-width: 1200px) {
+	.hide-lg {
+	 	 display: none !important;
+	}
+}
