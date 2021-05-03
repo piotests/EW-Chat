@@ -27,8 +27,10 @@ const ChatRoom = ({
 
     const handleSendMessage = (e) => {
         e.preventDefault();
-        sendMessage(newMessage);
-        setNewMessage('');
+        if (newMessage.length) {
+            sendMessage(newMessage);
+            setNewMessage('');
+        }
     };
     
 

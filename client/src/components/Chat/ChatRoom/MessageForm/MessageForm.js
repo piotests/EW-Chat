@@ -16,6 +16,7 @@ const MessageForm = ({
         />
         <button 
           type='submit' 
+          disabled={!newMessage}
           onClick={handleSendMessage}
         >
           Send

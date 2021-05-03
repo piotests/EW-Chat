@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import {withRouter, useHistory} from 'react-router-dom';
+import {withRouter} from 'react-router-dom';
 import axios from 'axios';
 import Auth from './Auth';
 import LocalStorage from '../components/Chat/Helpers/LocalStorage';
@@ -8,7 +8,6 @@ import {SOCKET_SERVER_URL, RANDOM_IMAGES_API, USER} from '../components/Config/C
 import './Login.scss';
 
 const Login = (props) => {
-    const history = useHistory();
 
     const [name, setName] = useState('');
     const [error, setError] = useState('');
